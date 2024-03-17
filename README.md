@@ -7,7 +7,7 @@ This is an initial attempt at using a simple multi-layer perceptron to predict w
 The model generates a predicted class of whether a player will be a "Boom" or a "Bust" in the following year. A player is "Boom" if they increase in value, and "Bust" if the drop in value. This is pretty loose criteria (i.e. a player could increase a single draft spot and be a "Boom"), but this is just a starting point and can easily improve. Most public models try to predict overall scores a player will generate in the upcoming year (which most sites do already anyways) so I wanted an alternate prediction that gives value. In my league we keep 2 players per year, so it's helpful to identify players who are likely to have increasing value regardless of their overall score.
 
 ## Data Description
-The data that is used is pulled from (https://www.fftoday.com/index.html). It uses very simple features, so again I expect to improve the number of usefulness of features based on this starting points
+The data that is used is pulled from (https://www.fftoday.com/index.html). It uses very simple features, so this is good spot to improve this model in the future.
 
 Current features include: 
 - Position (one-hot-encoded)
