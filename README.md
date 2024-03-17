@@ -24,3 +24,7 @@ Below is a confusion matrix on the performance of the model on holdout data. You
 ![image](https://github.com/aaron-flem/Fantasy-Football-NN/assets/133904679/7c220c24-92d7-423c-9ee2-3e22291baddb)
 
 Hope you enjoy the (pretty rough) code. Feel free to use the data / code for whatever your purpose is. 
+
+## Packages
+
+python 3.9.16
